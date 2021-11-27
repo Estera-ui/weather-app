@@ -63,3 +63,8 @@ input[type="submit"]:hover {
   display: flex;
   transition: all 200ms ease-in-out;
 }
+.forecast:hover {
+  background: #fffbef;
+  width: 200px;
+  height: 20px 0px;
+}
