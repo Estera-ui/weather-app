@@ -68,3 +68,73 @@ input[type="submit"]:hover {
   width: 200px;
   height: 20px 0px;
 }
+
+.col-2 {
+  width: 16.66666667%;
+  flex: 0 auto;
+}
+.row {
+  display: flex;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 50px;
+  border-radius: 5px;
+  background: transparent;
+}
+.content:hover {
+  background-color: transparent;
+  color: rgb(238, 235, 235);
+}
+.temperature {
+  color: rgb(7, 7, 7);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  top: 80px;
+  right: 40px;
+}
+#glass {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  justify-content: center;
+  box-shadow: 10px 5px 5px black;
+  transition: all 200ms ease-in-out;
+}
+#glass:hover {
+  background: #cdefee;
+  width: 250px;
+  height: 25px 0px;
+}
+.units {
+  position: relative;
+  top: 50px;
+  right: 40px;
+  font-weight: 25px;
+}
+.col-lg-1 {
+  display: inline;
+  margin: 50px;
+  padding: 50px;
+}
+.borders {
+  border: 1px solid rgb(223, 103, 143);
+  padding: 40px;
+  margin: 30px auto;
+  background: linear-gradient(
+    114.2deg,
+    rgb(121, 194, 243) 22.6%,
+    rgb(255, 180, 239) 67.7%
+  );
+  max-width: 800px;
+  max-height: fit-content;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(5, 4, 4, 0.89);
+}
