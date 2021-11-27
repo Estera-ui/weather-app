@@ -40,7 +40,7 @@ input[type="submit"] {
 input[type="search"] {
   border: 1px solid #c5b9b9;
   border-radius: 20px;
-  color: rgb(17, 16, 16);
+
   margin: 0 10px;
   padding: 5px;
   width: 200px;
@@ -49,7 +49,7 @@ input[type="search"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgba(5, 4, 4, 0.89);
+  background-color: rgba(235, 219, 219, 0.89);
 }
 .forecast {
   border: 1px solid #063970;
