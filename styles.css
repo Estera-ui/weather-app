@@ -90,13 +90,11 @@ input[type="submit"]:hover {
   color: rgb(238, 235, 235);
 }
 #temperature {
-  color: rgb(221, 20, 20);
+  color: rgb(12, 11, 11);
   font-size: 60px;
   font-weight: 300;
   line-height: 1;
   position: relative;
-  top: 80px;
-  right: 40px;
 }
 #glass {
   width: 220px;
