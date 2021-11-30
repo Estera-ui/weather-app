@@ -89,7 +89,7 @@ input[type="submit"]:hover {
   background-color: transparent;
   color: rgb(238, 235, 235);
 }
-.temperature {
+#temperature {
   color: rgb(221, 20, 20);
   font-size: 60px;
   font-weight: 300;
