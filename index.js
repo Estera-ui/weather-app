@@ -83,7 +83,9 @@ searchForm.addEventListener("submit", handleSubmit);
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
-  alert("Link clicked");
+  let fahrenheitTemperature = (14 * 9) / 5 + 32;
+  alert(fahrenheitTemperature);
+  
 }
 
 searchCity("Birmingham");
