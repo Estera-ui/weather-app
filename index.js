@@ -80,4 +80,13 @@ dateElement.innerHTML = formatDate(currentTime);
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
+
+function displayFahrenheitTemperature(event) {
+  event.preventDefault();
+  alert("Link clicked");
+}
+
 searchCity("Birmingham");
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
