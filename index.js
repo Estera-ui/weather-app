@@ -35,6 +35,12 @@ function displayWeatherCondition(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+
+ celsiusTemperature = response.data.main.temp;
+
+ temperatureElement,innerHTML = Math.round(celsiusTemperature);
+
+
 }
 
 function searchCity(city) {
@@ -83,14 +89,17 @@ searchForm.addEventListener("submit", handleSubmit);
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
-  let fahrenheitTemperature = (3 * 9) / 5 + 32;
-  alert(fahrenheitTemperature);
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = fahrenheitTemperature;
+  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
   
 }
+let cesiusTemperature = null;
 
-searchCity("Birmingham");
+
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+
+searchCity("Birmingham");
