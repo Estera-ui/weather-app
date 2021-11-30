@@ -95,6 +95,7 @@ input[type="submit"]:hover {
   font-weight: 300;
   line-height: 1;
   position: relative;
+  justify-content: center;
 }
 #glass {
   width: 220px;
