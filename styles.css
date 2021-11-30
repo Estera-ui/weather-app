@@ -129,9 +129,9 @@ input[type="submit"]:hover {
   padding: 40px;
   margin: 30px auto;
   background: linear-gradient(
-    105.4deg,
-    rgb(216, 176, 216) 23.9%,
-    rgb(53, 169, 215) 86.5%
+    109.6deg,
+    rgb(135, 168, 254) 11.2%,
+    rgb(254, 165, 197) 100.2%
   );
   max-width: 800px;
   max-height: fit-content;
