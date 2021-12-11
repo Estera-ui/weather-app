@@ -85,6 +85,11 @@ input[type="submit"]:hover {
   background-color: transparent;
   color: rgb(238, 235, 235);
 }
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
 #temperature {
   color: rgb(12, 11, 11);
   font-size: 60px;
