@@ -36,112 +36,36 @@
                   </div>
                 </div>
             </form>
-            <h1 id="city"></h1>
+            <div class="overview">
+                <h1 id="city"></h1>
                 <ul>
-                 <li id="date"></li>
-                 <li id="description"></li>
-                </ul>
-            <div class="row-1">
-            <div class="row-2">
-                <div class="forecast" id="glass">
-                    <img src="src/image.png"
-                    alt="sun-icon"
-                    class="weather-icon float-left"
-                    />
-                    <div class="float-left">
-                        <div id="temperature"> 12 </div>
-                        <span class="units">&#8451 </span>
-                    </div>
-                </div>
-            <div class="col-lg-1">
-                <ul>
-                    <li>Humidity: <span id="humidity"></span> %</li>
-                    <li>Wind: <span id="wind"></span>km/h</li>
+                    <li><span id="date">Today</span></li>
+                    <li id="description"></li>
                 </ul>
             </div>
-            </div>
-            </div>
-        </div>
-        <hr>
-        <div  class="weather-forecast" id="forecast">
             <div class="row">
-                <div class="col-2">
-                    <div class="forecast">
-                        <div class="forecast-first">
-                            <div class="weather-forecast-date">Monday</div>
-                            <img src="src/cloudy.png" alt="icon">
-                            <div class="weather-forecast-temperature">
-                             <span class="weather-forecast-temperature-max"> 
-                              18 &#176</span>
-                            <span class="weather-forecast-temperature-min">
-                              12 &#176
-                            </span>
-                            </div>
+                <div class="col-6">
+                    <div class="clearfix weather-temperature">
+                        <img src="" alt="Clear" id="icon" class="float-left" />
+                        
+                            <strong id="temperature"></strong><span class="units">°C</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="forecast">
-                        <div class="forecast-first">
-                            <div class="weather-forecast-date">Tuesday</div>
-                            <img src="src/rainy-day.png" alt="cloudy-icon">
-                            <div class="weather-forecast-temperature">
-                              <span class="weather-forecast-temperature-max">
-                                20 &#176</span>
-                             <span class="weather-forecast-temperature-min">
-                                15 &#176
-                             </span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-6">
+                    <ul>
+                        <li>Humidity: <span id="humidity"></span>%</li>
+                        <li>Wind: <span id="wind"></span> m/h</li>
+                    </ul>
                 </div>
-                <div class="col-2">
-                    <div class="forecast">
-                    <div class="forecast-first">
-                        <div class="weather-forecast-date">Wednesday</div>
-                        <img src="src/cloudy (1).png" alt="rain-icon">
-                        <div class="weather-forecast-temperature">
-                          <span class="weather-forecast-temperature-max">
-                                15 &#176</span>
-                          <span class="weather-forecast-temperature-min">
-                                 14 &#176
-                          </span>
-                        </div> 
-                    </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="forecast">
-                        <div class="forecast-first">
-                            <div class="weather-forecast-date">Thursday</div>
-                            <img src="src/image.png" alt="rain-sun-icon">
-                            <div class="weather-forecast-temperature">
-                              <span class="weather-forecast-temperature-max"> 
-                                12 &#176</span>
-                             <span class="weather-forecast-temperature-min">
-                              8 &#176 
-                            </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="forecast">
-                    <div class="forecast-first">
-                        <div class="weather-forecast-date">Friday&#8451</div>
-                        <img src="src/rainy.png" alt="cloud-icon">
-                        <div class="weather-forecast-temperature">
-                          <span class="weather-forecast-temperature-max"> 
-                            19 &#176</span>
-                         <span class="weather-forecast-temperature-min">
-                           17 &#176
-                         </span>
-                        </div>
-                         </div>
-                      </div>
-                    </div>
-                 </div>
-              </div> 
+            </div>
+            <hr>
+            <div class="weather-forecast" id="forecast"></div>
+            </div>
+            </div>
+
+
+
         </section>
     </div>
     <br>
