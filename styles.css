@@ -29,7 +29,7 @@ body {
 .snowflake {
   animation-delay: var(--snowflake-delay);
   animation-duration: var(--snowflake-speed);
-  animation-easing: linear;
+  animation-direction: linear;
   animation-iteration-count: infinite;
   animation-name: snow;
   animation-timing-function: linear;
