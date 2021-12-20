@@ -130,3 +130,17 @@ const setProperties = properties => element => {
 
   return element;
 };
+
+[...Array(100)].forEach(() =>
+document.body.appendChild(
+  setProperties({
+    "--snowflake-x": `${random(1)(99)}vw`,
+    "--snowflake-speed": `${random(2)(3)}s`,
+    "--snowflake-delay": `${random(0)(3)}s`,
+  })(
+    Object.assign(document.createElement("div"), {
+      className: "snowflake",
+    }),
+  ),
+),
+);
