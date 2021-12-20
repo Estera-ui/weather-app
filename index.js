@@ -121,3 +121,12 @@ search("Birmingham");
 
 
 
+const random = min => max => Math.random() * (max - min) + min;
+
+const setProperties = properties => element => {
+  Object.entries(properties).forEach(([key, value]) => 
+  element.style.setProperty(key, value),
+  );
+
+  return element;
+};
