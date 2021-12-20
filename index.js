@@ -116,3 +116,13 @@ let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
 search("Birmingham");
+
+
+
+
+let addSnow = () => {
+  const random = (min, max) => Math.random() * (max -min) + min;
+  let screenWidth = window.innerWidth;
+  let screenHeight = window.innerHeight;
+
+};
